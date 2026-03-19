@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heaven Books</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: #ffeef2 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      color: #3a2c2c;
+    }
+    header {
+      background-color: #fbdde2;
+      padding: 7em 1em 5em;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4em;
+      margin: 0;
+      color: #a84c59;
+    }
+    header h1::before,
+    header h1::after {
+      content: "\1F338";
+      margin: 0 0.4em;
+    }
+    header p {
+      font-size: 1.3em;
+      color: #6c3d3d;
+      margin: 0.5em 0 1.5em;
+    }
+    .contact-info {
+      font-size: 0.8em;
+      color: #6c3d3d;
+      margin-top: 1.5em;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      flex-wrap: wrap;
+    }
+    .contact-info span:last-child::before {
+      content: url('https://cdn-icons-png.flaticon.com/16/2111/2111463.png');
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    section {
+      padding: 2.5em 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2em;
+      border-bottom: 1px solid #e5a4b2;
+      display: inline-block;
+      margin-bottom: 0.2em;
+      color: #a84c59;
+      text-align: left;
+      font-weight: bold;
+    }
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+      margin-top: 1em;
+    }
+    .menu-box {
+      background: #fff3f5;
+      padding: 1.5em;
+      border-radius: 12px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+    .menu-box h3 {
+      margin-top: 0;
+      color: #a84c59;
+      font-family: 'Playfair Display', serif;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    .menu-note {
+      text-align: left;
+      font-size: 0.9em;
+      color: #7a4b4b;
+      margin-top: 0.3em;
+      margin-bottom: 1.2em;
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin: 3em 0 1em;
+      font-size: 1.6em;
+      font-family: 'Playfair Display', serif;
+      background-color: #fcdbe3;
+      padding: 2.5em 1.5em;
+      border-radius: 10px;
+      color: #5e3d3d;
+      font-weight: bold;
+    }
+    .quote .small-note {
+      font-size: 0.8em;
+      font-family: 'Playfair Display', serif;
+      margin-top: 1em;
+      font-weight: normal;
+    }
+    .book-list-section {
+      text-align: center;
+      margin: 2em 1em;
+      background: #fceff2;
+      padding: 1.5em;
+      border-radius: 10px;
+      color: #5a2e2e;
+      font-size: 0.9em;
+    }
+    .book-list-section a {
+      color: #a84c59;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .book-list-section a:hover {
+      text-decoration: underline;
+    }
+    .subsection-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2em;
+      color: #a84c59;
+      margin: 2em 0 0.5em;
+      text-align: left;
+      font-weight: bold;
+      border-bottom: 1px solid #e5a4b2;
+      width: fit-content;
+    }
+    .subsection-title + .menu-note {
+      text-align: left;
+      font-size: 0.9em;
+      color: #7a4b4b;
+      margin-top: 0.5em;
+    }
+    .contact, .footer {
+      text-align: center;
+    }
+    footer {
+      background-color: #fde5ea;
+      padding: 2em 1em;
+      font-size: 0.9em;
+    }
+    a {
+      color: #a84c59;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Heaven Books</h1>
+    <p>A cozy escape with warm drinks, sweet treats, and wonderful reads</p>
+    <div class="contact-info">
+      <span>📞 +961 11 111111</span>
+      <span>📍 Somewhere on Earth</span>
+      <span>book_heaven 202</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Menu Highlights:</h2>
+    <div class="menu-note">Come enjoy our haven and some delicious snacks 🌼</div>
+    <div class="menu-container">
+      <div class="menu-box">
+        <h3>☕ Coffee</h3>
+        <ul>
+  <li>Espresso</li>
+  <li>Latte</li>
+  <li>Cappuccino</li>
+  <li>Caramel Macchiato</li>
+
+        </ul>
+      </div>
+      <div class="menu-box">
+        <h3>🍰 Cakes</h3>
+         <ul>
+  <li>Chocolate Fudge Cake</li>
+  <li>Red Velvet</li>
+  <li>Vanilla Cream</li>
+  <li>Lemon Drizzle</li>
+</ul>
+      </div>
+      <div class="menu-box">
+        <h3>🍩 Donuts</h3>
+       <ul>
+  <li>Classic Glazed</li>
+  <li>Chocolate Filled</li>
+  <li>Strawberry Sprinkle</li>
+  <li>Cinnamon Sugar</li>
+</ul>
+      </div>
+      <div class="menu-box">
+        <h3>🥐 Croissants</h3>
+       <ul>
+  <li>Butter</li>
+  <li>Chocolate</li>
+  <li>Almond</li>
+  <li>Cheese</li>
+</ul> 
+      </div>
+    </div>
+
+    <div class="subsection-title">Some Titles:</div>
+    <div class="menu-note">Discover stories as sweet as our treats 🌸</div>
+    <div class="menu-container">
+      <div class="menu-box">
+        <h3>💖 Romantic Titles</h3>
+        <ul>
+          <li>wonder</li>
+          <li>anne of green gables</li>
+          <li>tell me three things</li>
+          <li>11:11</li>
+        </ul>
+      </div>
+      <div class="menu-box">
+        <h3>🧙‍♂️ Fantasy Titles</h3>
+        <ul>
+          <li>zikola</li>
+          <li>anterista</li>
+          <li>jartin</li>
+          <li>kyara</li>
+        </ul>
+      </div>
+      <div class="menu-box">
+        <h3>👻 Horror Titles</h3>
+        <ul>
+          <li>coraline</li>
+          <li>say cheese and die</li>
+          <li>the gravetrad</li>
+          <li>lockwood & co.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="quote">
+    “A room without books is like a garden without flowers 🌷”
+    <div class="small-note">Curious what we have? 👉 <a href="booklist.html">Check our book list</a></div>
+  </div>
+
+  <footer class="footer">
+    <p>🌷 Thank you for visiting Heaven Books — where stories bloom and every sip tells a tale. 🌷</p>
+    <p>&copy; Heaven_Books202</p>
+  </footer>
+
+</body>
+</html>
